@@ -12,7 +12,7 @@ function page() {
                     <div className='text-3xl md:text-[5rem] xl:text-[5rem] font-semibold blend mb-6 xl:mb-12 text-center '>Frequently <span className='text-fodOrange'>Asked</span> Questions</div>
 
                     <div className='md:flex justify-end'>
-                        <div className='text-lg md:text-xl lg:text-2xl font-semibold text-center'>Your travel doubts, answered! From booking details to trip experiences — here’s everything you need to know before you set out on your next adventure with us.</div>
+                        <div className='text-lg md:text-xl lg:text-2xl font-semibold text-center'>Your stay questions, answered! From booking details to room amenities — here&apos;s everything you need to know before your next stay with us.</div>
                     </div>
                 </div>
             </div>
@@ -20,7 +20,7 @@ function page() {
                 <div className="w-full max-w-7xl mx-auto">
                     <div className='w-full text-center space-y-4 mb-4'>
                         <h2 className="text-3xl font-bold text-fodBlue title-underline-orange after:bg-whited">General Questions</h2>
-                        <p>A quick guide to help you understand how our trips work, what’s included, and how we make travel easy for you.</p>
+                        <p>A quick guide to help you understand how our stays work, what&apos;s included, and how we make your hotel experience seamless.</p>
                     </div>
                     <FaqAccordion data={FAQ_DATA.generalQuestions} />
                 </div>
@@ -29,7 +29,7 @@ function page() {
                 <div className="w-full max-w-7xl mx-auto">
                     <div className='w-full text-center space-y-4 mb-4'>
                         <h2 className="text-3xl font-bold text-fodBlue title-underline-orange after:bg-whited">Frequently Asked Travel Questions</h2>
-                        <p>Got travel-specific queries? Here are some of the most common questions from our happy explorers.</p>
+                        <p>Got stay-related questions? Here are some of the most common queries from our satisfied guests.</p>
                     </div>
                     <FaqAccordion data={FAQ_DATA.frequentlyAskedQuestions} />
                 </div>

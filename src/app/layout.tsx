@@ -23,8 +23,8 @@ const geistSans = Geist({
 
 
 export const metadata: Metadata = {
-  title: "FOD Holidays",
-  description: "Your ultimate travel partner for curated trips, comfort, and unforgettable memories. Explore the world with FOD Holidays.",
+  title: "FOD Hotels",
+  description: "Your ultimate travel partner for curated trips, comfort, and unforgettable memories. Explore the world with FOD Hotels.",
 };
 
 export default function RootLayout({

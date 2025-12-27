@@ -11,22 +11,22 @@ function Stats() {
             <div className='flex flex-col gap-1'>
                 <Image src={love} alt='Hear Image' />
                 <h3 className='font-semibold text-lg mt-4'>5 Thousands +</h3>
-                <p>Happy customers from all over India.</p>
+                <p>Happy guests from all over India.</p>
             </div>
             <div className='flex flex-col gap-1'>
                 <Image src={star} alt='Hear Image' />
                 <h3 className='font-semibold text-lg mt-4'>4.6 / 5.0</h3>
-                <p>Cumulative ratings of our trips across platforms.</p>
+                <p>Cumulative ratings of our hospitality across platforms.</p>
             </div>
             <div className='flex flex-col gap-1'>
                 <Image src={heart} alt='Hear Image' />
                 <h3 className='font-semibold text-lg mt-4'>Curated with love</h3>
-                <p>Expert-guided trips with meticulous planning.</p>
+                <p>Thoughtfully curated stays with seamless planning.</p>
             </div>
             <div className='flex flex-col gap-1'>
                 <Image src={support} alt='Hear Image' />
                 <h3 className='font-semibold text-lg mt-4'>24*7 Support</h3>
-                <p>We are always there to help you pre, post and on the trip.</p>
+                <p>We&apos;re always here to assist before, during, and after your stay.</p>
             </div>
         </div>
     )

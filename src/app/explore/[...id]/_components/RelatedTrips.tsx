@@ -12,7 +12,7 @@ function RelatedTrips({ id }: { id: number }) {
     return (
         <div className='space-y-8'>
             <div className='text-center'>
-                <h2 className='text-3xl font-bold text-fodBlue title-underline-orange'>Related Trips</h2>
+                <h2 className='text-3xl font-bold text-fodBlue title-underline-orange'>Other Hotels</h2>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 justify-items-center'>
                 {randomSix.map((data: MainDataType) => (

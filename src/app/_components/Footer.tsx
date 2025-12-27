@@ -56,7 +56,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="border-t border-gray-600 mt-10 pt-5 text-center text-gray-400 text-sm">
-        © 2025 FOD Holidays — All Rights Reserved |
+        © 2025 FOD Hotels — All Rights Reserved |
         <a href="#" className="hover:text-fodOrange ml-1"> Privacy Policy</a>
       </div>
     </footer>

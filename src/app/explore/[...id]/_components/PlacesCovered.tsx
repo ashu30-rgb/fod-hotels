@@ -37,7 +37,7 @@ function PlacesCovered({ data }: { data: MainDataType }) {
         <div className='border rounded-xl p-4 '>
             <div className='flex flex-col lg:flex-row lg:gap-10 justify-between'>
                 <div>
-                    <h2 className='text-2xl font-bold text-fodBlue title-underline-orange mb-2'>Places to be covered</h2>
+                    <h2 className='text-2xl font-bold text-fodBlue title-underline-orange mb-2'>Hotel Highlights</h2>
                     <Stepper
                         steps={STEP_ARRAY}
                         currentStepIndex={5}

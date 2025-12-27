@@ -35,8 +35,8 @@ function PackageHero({data}:{data:MainDataType}) {
                     src={image}
                     loading='lazy'
                     alt={data.name+"image"}
-                    width={1920}
-                    height={1080}
+                    width={2920}
+                    height={2080}
                   />
                 </SwiperSlide>
               );

@@ -70,10 +70,25 @@ function Hero() {
                             </defs>
                         </svg>
                         <h1 className="text-2xl md:text-7xl font-extrabold mt-12">
-                            Explore. Book. Travel.
+                            Discover. Book. Stay.
                         </h1>
                         <div className='text-2xl md:text-7xl font-bold text-fodOrange min-h-8 md:min-h-20 mb-12'>
-                            <ReactTyped showCursor={false} strings={["Adventure", "Honeymoon", "Explorations", "Mountains", "Valleys", "Beaches", "Trekking", "Memories"]} typeSpeed={51} backSpeed={21} loop />
+                            <ReactTyped
+                                showCursor={false}
+                                strings={[
+                                    "Comfort",
+                                    "Relaxation",
+                                    "Stays",
+                                    "Mountains",
+                                    "Cities",
+                                    "Getaways",
+                                    "Business",
+                                    "Memories"
+                                ]}
+                                typeSpeed={51}
+                                backSpeed={21}
+                                loop
+                            />
                         </div>
 
                         {/* <p className='text-sm md:text-lg lg:text-2xl text-center'>Your next adventure is just a click away - discover destinations, compare deals, and start your journey with us</p> */}
