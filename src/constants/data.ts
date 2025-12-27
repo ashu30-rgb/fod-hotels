@@ -46,9 +46,9 @@ export const MAIN_DATA: MainDataType[] = [
 
     ],
     prices: [
-      { type: "quad", label: "Quad Sharing", price: 5999 },
-      { type: "triple", label: "Triple Sharing", price: 6499 },
-      { type: "double", label: "Double Sharing", price: 6999 },
+      { type: "quad", label: "Standard", price: 1999 },
+      { type: "triple", label: "Deluxe", price: 2499 },
+      { type: "double", label: "Executive", price: 2999 },
     ],
     location: "Manali",
     places_covered: [

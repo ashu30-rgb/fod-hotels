@@ -59,7 +59,7 @@ function AboutPage() {
                     </div>
                 </div>
                 <div className='md:-mt-56 md:-mb-56 lg:-mb-96 z-10 relative w-full hidden md:block'>
-                    <Image className='rounded-lg border-4 border-white' src={"https://res.cloudinary.com/dgghqzaxo/image/upload/v1761246540/FOD%20Holidays/WhatsApp_Image_2025-10-21_at_00.53.00_vwsoe3.jpg"} height={500} width={600} alt="team" />
+                    <Image className='rounded-lg border-4 border-white' src={"https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822483/FOD%20Hotels/Mountain%20Mirage/c6d0db65-3001-46cb-b3c2-b36bbf26ed5b.png_asnb03.avif"} height={500} width={600} alt="team" />
                 </div>
             </section>
             <section className='relative head-top about-middle-bg md:pt-32 lg:pt-64'>

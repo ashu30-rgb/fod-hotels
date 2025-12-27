@@ -50,7 +50,7 @@ function PackageTitle({ data }: { data: MainDataType }) {
             <div className="p-4 lg:w-1/3 border rounded-xl shadow-lg drop-shadow-lg h-fit flex flex-col gap-2">
                 <p>Starting From</p>
                 <h3 className="text-4xl font-bold text-fodOrange">&#8377; {data.prices[0].price.toLocaleString()}/- </h3>
-                <p className="text-fodOrange">Per {data.prices[0].isHoneyMoon ? "Couple" : "Person"}</p>
+                <p className="text-fodOrange">Per Night</p>
                 <div className="flex items-center gap-2">
                  <MapPin size={20} />
                 <p>{data.location}</p>

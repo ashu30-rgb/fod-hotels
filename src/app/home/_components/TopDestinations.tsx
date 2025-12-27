@@ -10,7 +10,7 @@ function TopDestinations() {
         <div className='bg-fodOrange/10 pt-16 pb-2 p-4'>
             <div className='max-w-7xl mx-auto'>
                 <div className='text-center'>
-                    <h2 className='text-3xl font-bold text-fodBlue title-underline-orange'>Top Destinations</h2>
+                    <h2 className='text-3xl font-bold text-fodBlue title-underline-orange'>Top Hotels</h2>
                 </div>
                 <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 mt-16 text-white'>
                     {randomSix.map((item: MainDataType, index: number) => (
