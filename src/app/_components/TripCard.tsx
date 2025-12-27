@@ -22,7 +22,7 @@ const TripCard = ({ data }: { data: MainDataType }) => {
             <div className="p-6">
                 <div className="flex flex-col gap-1 h-full">
                     <span className="text-sm text-[#808080]">
-                        {data.duration.day} Days & {data.duration.night} Nights
+                        {data.location}
                     </span>
 
                     <Link href={`/explore/${data?.id}`} className="font-semibold text-2xl text-wrap hover:text-fodOrange hover:underline mb-4">

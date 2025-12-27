@@ -4,7 +4,7 @@ export interface MainDataType {
   desc: string;
   images: string[];
   prices: PriceType[];
-  duration: DurationType;
+  location: string;
   places_covered: string[];
   inclusions: string[];
   exclusions: string[];
@@ -18,10 +18,6 @@ export interface PriceType {
   isHoneyMoon?: boolean;
 }
 
-export interface DurationType {
-  day: number;
-  night: number;
-}
 
 export type SharingType = "quad" | "triple" | "double" | "couple" | "single";
 

@@ -9,7 +9,7 @@ export const DEFAULT_WTSP_URL =
 export const MAIN_DATA: MainDataType[] = [
   {
     id: 1,
-    name: "Mountain Mirage, Manali",
+    name: "Mountain Mirage",
     desc: "Mountain Mirage is a serene hotel located in Manali, surrounded by beautiful Himalayan views. Ideal for couples, families, and leisure travelers, the property offers a calm atmosphere with comfortable rooms and easy access to Manali's popular attractions.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822262/FOD%20Hotels/Mountain%20Mirage/32a66fe0-f45e-4736-95b7-94bfc03ebaec.jpg_kopbjw.avif",
@@ -50,10 +50,7 @@ export const MAIN_DATA: MainDataType[] = [
       { type: "triple", label: "Triple Sharing", price: 6499 },
       { type: "double", label: "Double Sharing", price: 6999 },
     ],
-    duration: {
-      day: 5,
-      night: 4,
-    },
+    location: "Manali",
     places_covered: [
       "Scenic mountain surroundings",
       "Comfortable and spacious rooms",
@@ -78,7 +75,7 @@ export const MAIN_DATA: MainDataType[] = [
   },
   {
     id: 2,
-    name: "Hotel Barak Residency, Jalandhar",
+    name: "Hotel Barak Residency",
     desc: "Hotel Barak Residency is located near Lovely Professional University, making it a preferred choice for students, parents, academic visitors, and professionals. The hotel offers clean rooms, essential amenities, and a quiet stay environment.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823532/FOD%20Hotels/Barak%20Residency/hotel-the-barak-s-residency--lpu-main-gate--special-for-parents-students-couples-corporate-phagwara-20231218053550144400_pkik3e.jpg",
@@ -98,10 +95,7 @@ export const MAIN_DATA: MainDataType[] = [
       { type: "triple", label: "Triple Sharing", price: 6499 },
       { type: "double", label: "Double Sharing", price: 6999 },
     ],
-    duration: {
-      day: 6,
-      night: 5,
-    },
+    location: "Jalandhar",
     places_covered: [
       "Prime location near LPU",
       "Suitable for students, parents, and professionals",
@@ -126,7 +120,7 @@ export const MAIN_DATA: MainDataType[] = [
   },
   {
     id: 3,
-    name: "Hotel Nitin Stays, Jalandhar",
+    name: "Hotel Nitin Stays",
     desc: "Hotel Nitin Stays offers budget-friendly accommodation for guests seeking comfort, cleanliness, and convenience. It is suitable for business travelers, families, and short-stay guests visiting Jalandhar.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823459/FOD%20Hotels/Nitin%20Stays/ycykclhupxqk.jpg_riltls.avif",
@@ -152,10 +146,7 @@ export const MAIN_DATA: MainDataType[] = [
       { type: "triple", label: "Triple Sharing", price: 6499 },
       { type: "double", label: "Double Sharing", price: 6999 },
     ],
-    duration: {
-      day: 5,
-      night: 4,
-    },
+    location: "Jalandhar",
     places_covered: [
       "Budget-friendly pricing",
       "Clean and well-maintained rooms",
