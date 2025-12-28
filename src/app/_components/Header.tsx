@@ -28,7 +28,7 @@ export default function Header() {
             <Link href="/" className={`hover:text-fodOrange transition ${currentRoute==="/" && "font-bold text-fodOrange"}`}>Home</Link>
             <Link href="/explore" className={`hover:text-fodOrange transition ${currentRoute==="/explore" && "!font-bold text-fodOrange"}`}>Explore</Link>
             <Link href="/about" className={`hover:text-fodOrange transition ${currentRoute==="/about" && "font-bold text-fodOrange"}`}>About</Link>
-            <Link href="/blog" className={`hover:text-fodOrange transition ${currentRoute==="/blog" && "font-bold text-fodOrange"}`}>Blogs</Link>
+            {/* <Link href="/blog" className={`hover:text-fodOrange transition ${currentRoute==="/blog" && "font-bold text-fodOrange"}`}>Blogs</Link> */}
             <Link href="/faq" className={`hover:text-fodOrange transition ${currentRoute==="/faq" && "font-bold text-fodOrange"}`}>FAQ&apos;s</Link>
             <Link href="/contact" className={`hover:text-fodOrange transition ${currentRoute==="/contact" && "font-bold text-fodOrange"}`}>Contact</Link>
           </nav>
@@ -52,7 +52,7 @@ export default function Header() {
           <Link href="/" className={`hover:text-fodOrange transition ${currentRoute==="/" && "font-bold text-fodOrange"}`}>Home</Link>
           <Link href="/explore" className={`hover:text-fodOrange transition ${currentRoute==="/explore" && "font-bold text-fodOrange"}`}>Explore</Link>
           <Link href="/about" className={`hover:text-fodOrange transition ${currentRoute==="/about" && "font-bold text-fodOrange"}`}>About</Link>
-          <Link href="/blog" className={`hover:text-fodOrange transition ${currentRoute==="/blog" && "font-bold text-fodOrange"}`}>Blogs</Link>
+          {/* <Link href="/blog" className={`hover:text-fodOrange transition ${currentRoute==="/blog" && "font-bold text-fodOrange"}`}>Blogs</Link> */}
           <Link href="/faq" className={`hover:text-fodOrange transition ${currentRoute==="/faq" && "font-bold text-fodOrange"}`}>FAQ&apos;s</Link>
           <Link href="/contact" className={`hover:text-fodOrange transition ${currentRoute==="/contact" && "font-bold text-fodOrange"}`}>Contact</Link>
         </nav>
