@@ -1,5 +1,5 @@
 import { MainDataType } from '@fod/constants/types'
-import { MapPin } from 'lucide-react'
+import { CircleParking, MapPin, SoapDispenserDroplet, Utensils, Wifi } from "lucide-react";
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -10,8 +10,8 @@ const TripCard = ({ data }: { data: MainDataType }) => {
             <div className="relative">
                 <Image
                     className="rounded-3xl h-72 object-cover "
-                    src={data.images[0]||""}
-                    alt={data.name+" image"}
+                    src={data.images[0] || ""}
+                    alt={data.name + " image"}
                     width={384}
                     height={283}
                 />
@@ -25,17 +25,27 @@ const TripCard = ({ data }: { data: MainDataType }) => {
                         {data.location}
                     </span>
 
-                    <Link href={`/explore/${data?.id}`} className="font-semibold text-2xl text-wrap hover:text-fodOrange hover:underline mb-4">
+                    <Link href={`/explore/${data?.id}`} className="font-semibold text-2xl text-wrap hover:text-fodOrange hover:underline mb-2">
                         {data.name}
                     </Link>
 
 
-                    <div className="flex gap-2 mb-6 text-sm">
-                        <MapPin />
-                        <div>
-                            {data.places_covered.map((item, index) => (
-                                <span key={index}>{item}{index !== data.places_covered.length - 1 && ","} </span>
-                            ))}
+                    <div className="mb-4 text-sm">
+                        {data.headline}
+                    </div>
+
+                    <div className='flex gap-2 justify-between items-center mb-6'>
+                        <div className='p-2 rounded bg-fodOrange/5'>
+                            <CircleParking className='text-fodOrange' size={32} />
+                        </div>
+                        <div className='p-2 bg-fodOrange/5 rounded'>
+                            <Wifi className='text-fodOrange' size={32} />
+                        </div>
+                        <div className='p-2 bg-fodOrange/5 rounded'>
+                            <Utensils className='text-fodOrange' size={32} />
+                        </div>
+                        <div className='p-2 bg-fodOrange/5 rounded'>
+                            <SoapDispenserDroplet className='text-fodOrange' size={32} />
                         </div>
                     </div>
 

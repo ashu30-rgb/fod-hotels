@@ -1,6 +1,7 @@
 export interface MainDataType {
   id: number;
   name: string;
+  headline:string;
   desc: string;
   images: string[];
   prices: PriceType[];
@@ -19,7 +20,7 @@ export interface PriceType {
 }
 
 
-export type SharingType = "quad" | "triple" | "double" | "couple" | "single";
+export type SharingType = "standard" | "deluxe" | "executive";
 
 export interface FaqDataType {
   ques: string;

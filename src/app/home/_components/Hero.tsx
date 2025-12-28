@@ -22,7 +22,7 @@ function Hero() {
                 </div>
                 <div className="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 bg-black/50 h-full flex justify-center">
                     <div className='w-full h-full lg:w-3/5 flex flex-col gap-2 md:gap-4 justify-center items-center text-white'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120" viewBox="0 0 500 200" fill="none">
+                        {/* <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120" viewBox="0 0 500 200" fill="none">
                             <g clipPath="url(#clip0_4271_3695)">
                                 <path d="M219.8 26.801V41.585H190.36V54.545H212.32V69.329H190.36V94.001H175V26.801H219.8Z" fill="#FC5B0B" />
                                 <path d="M219.8 26.801V41.585H190.36V54.545H212.32V69.329H190.36V94.001H175V26.801H219.8Z" fill="url(#paint0_linear_4271_3695)" />
@@ -68,7 +68,7 @@ function Hero() {
                                     <rect width="500" height="200" fill="white" />
                                 </clipPath>
                             </defs>
-                        </svg>
+                        </svg> */}
                         <h1 className="text-2xl md:text-7xl font-extrabold mt-12">
                             Discover. Book. Stay.
                         </h1>
@@ -91,16 +91,16 @@ function Hero() {
                             />
                         </div>
 
-                        {/* <p className='text-sm md:text-lg lg:text-2xl text-center'>Your next adventure is just a click away - discover destinations, compare deals, and start your journey with us</p> */}
-                        <Link href='/explore' className='btn-primary mt-8 cursor-pointer hidden lg:flex'>Start Tour
+                        <p className='text-sm md:text-lg lg:text-2xl text-center'>Your perfect stay is just a click away — explore our hotels, choose your comfort, and book with confidence.</p>
+                        <Link href='/explore' className='btn-primary mt-8 cursor-pointer hidden lg:flex'>Explore
                             <MoveRight />
                         </Link>
                     </div>
                 </div>
             </div>
-            <div className='max-w-7xl w-full lg:absolute lg:-bottom-10 z-20 lg:left-1/2 lg:transform lg:-translate-x-1/2'>
+            {/* <div className='max-w-7xl w-full lg:absolute lg:-bottom-10 z-20 lg:left-1/2 lg:transform lg:-translate-x-1/2'>
                 <SearchBar />
-            </div>
+            </div> */}
         </div>
     )
 }

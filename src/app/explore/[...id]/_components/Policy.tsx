@@ -7,7 +7,13 @@ function Policy() {
                 <h2 className=" text-2xl font-semibold">Payment Term Policy</h2>
                 <ul className='mt-4'>
                     <li className='list-disc list-inside'>
-                        100.0% of total tour cost will have to be paid 0 days before the date of booking
+                        100% of the total room booking amount must be paid at the time of confirmation.
+                    </li>
+                    <li className='list-disc list-inside'>
+                        Bookings are confirmed only after full payment is received.
+                    </li>
+                    <li className='list-disc list-inside'>
+                        Prices are subject to change without prior notice until the booking is confirmed.
                     </li>
                 </ul>
             </div>
@@ -15,13 +21,16 @@ function Policy() {
                 <h2 className=" text-2xl font-semibold">Cancellation Policy</h2>
                 <ul className='mt-4 space-y-2'>
                     <li className='list-disc list-inside'>
-                        If cancellation is made 30 days or more before the date of travel, 30.0% of total booking cost will be charged as cancellation fees.
+                        If cancellation is made 48 hours or more before the check-in date, 30% of the total booking amount will be charged as cancellation fees.
                     </li>
                     <li className='list-disc list-inside'>
-                        If cancellation is made within 30 days before the date of travel, total booking cost will be charged as cancellation fees.
+                        If cancellation is made within 48 hours of the check-in date, or in case of no-show, the full booking amount will be charged.
                     </li>
                     <li className='list-disc list-inside'>
-                        In the event of unforeseen weather conditions, union issues, government restrictions, or any other circumstances beyond human control, certain trips or activities may be cancelled. In such cases, alternate feasible options will be provided. However, a cash refund will not be available.
+                        Early check-out after check-in will not be eligible for any refund.
+                    </li>
+                    <li className='list-disc list-inside'>
+                        In case of unforeseen circumstances such as weather conditions, government restrictions, natural calamities, or other events beyond human control, bookings may be modified or rescheduled subject to availability. Cash refunds may not be applicable in such cases.
                     </li>
                 </ul>
             </div>
@@ -29,16 +38,19 @@ function Policy() {
                 <h2 className=" text-2xl font-semibold">Refund Policy</h2>
                 <ul className='mt-4 space-y-2'>
                     <li className='list-disc list-inside'>
-                        Closed Sightseeing due to COVID : For any paid activity which is non-operational due to any unforeseen reason, we will process the refund & same should reach the guest within 30 days of processing the refund. Also, for any activity which is complementary and not charged to Thrillophilia & guest, no refund will be processed.
+                        Any eligible refund will be processed within 7-14 working days after approval.
                     </li>
                     <li className='list-disc list-inside'>
-                        In case your package needs to be cancelled due to any natural calamity, weather conditions etc. Thrillophilia shall strive to give you the maximum possible refund subject to the agreement made with our trade partners/vendors.
+                        Refunds, if applicable, will be made through the original mode of payment.
                     </li>
                     <li className='list-disc list-inside'>
-                        In case of getting tested positive for COVID-19, a reschedule will be provided at a later date ( surcharges will be applicable as per season ). Kindly share the reports/documents for verification purposes.
+                        No refund will be provided for unused services, early departures, or no-shows.
                     </li>
                     <li className='list-disc list-inside'>
-                        In case of travel ban for Indians to any country booked in itinerary , Change in itinerary will be offered or if possible a reschedule will be provided on a later date ( surcharges might be applicable according to season )
+                        In case the hotel is unable to honor a confirmed booking due to operational reasons, an alternate accommodation of similar category may be provided or a refund will be processed as per policy.
+                    </li>
+                    <li className='list-disc list-inside'>
+                        All refunds are subject to bank processing timelines and partner agreements.
                     </li>
                 </ul>
             </div>

@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="p-2 border border-gray-400 rounded-full">
               <FaEnvelope className="text-fodOrange" />
             </div>
-            <span className="text-gray-200 text-sm">info@fodholidays.com</span>
+            <span className="text-gray-200 text-sm">info@fodhotels.com</span>
           </div>
           <div className="flex items-center gap-3">
             <div className="p-2 border border-gray-400 rounded-full">
@@ -56,7 +56,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="border-t border-gray-600 mt-10 pt-5 text-center text-gray-400 text-sm">
-        © 2025 FOD Hotels — All Rights Reserved |
+        © {new Date().getFullYear()} FOD Hotels — All Rights Reserved |
         <a href="#" className="hover:text-fodOrange ml-1"> Privacy Policy</a>
       </div>
     </footer>

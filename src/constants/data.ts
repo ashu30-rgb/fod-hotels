@@ -10,13 +10,14 @@ export const MAIN_DATA: MainDataType[] = [
   {
     id: 1,
     name: "Mountain Mirage",
+    headline:"A Peaceful Escape in the Mountains",
     desc: "Mountain Mirage is a serene hotel located in Manali, surrounded by beautiful Himalayan views. Ideal for couples, families, and leisure travelers, the property offers a calm atmosphere with comfortable rooms and easy access to Manali's popular attractions.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822262/FOD%20Hotels/Mountain%20Mirage/32a66fe0-f45e-4736-95b7-94bfc03ebaec.jpg_kopbjw.avif",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822686/FOD%20Hotels/Mountain%20Mirage/f00a8a8a-0256-447f-9554-8a133e8f7dd9.png_bztuj3.avif",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822690/FOD%20Hotels/Mountain%20Mirage/fed3a9df-6452-4da3-a67f-8d6f1409e9d5.jpg_ujjjjy.avif",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822688/FOD%20Hotels/Mountain%20Mirage/fc06591a-46b8-4e46-8f10-21899e67cb2e.png_i9xcro.jpg",
-      'https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822528/FOD%20Hotels/Mountain%20Mirage/ec8424f1-e6ee-4004-b456-762f252562ba_su5tdg.jpg',
+      "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822528/FOD%20Hotels/Mountain%20Mirage/ec8424f1-e6ee-4004-b456-762f252562ba_su5tdg.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822526/FOD%20Hotels/Mountain%20Mirage/e6e9cb14-a739-4dff-bb2c-e58ed8f27c27.jpg_w4kjp3.avif",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822523/FOD%20Hotels/Mountain%20Mirage/d3b4dbf3-99e0-4764-a6e4-82f3df30c5aa.jpg_s4echa.avif",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822519/FOD%20Hotels/Mountain%20Mirage/d02e8580-e52f-4fdc-a464-0ce54c458f22.png_b92yip.webp",
@@ -43,12 +44,11 @@ export const MAIN_DATA: MainDataType[] = [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822187/FOD%20Hotels/Mountain%20Mirage/2b8adf49-92b0-4fd0-aa42-307db2f5f5f5.png_v5eriv.webp",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822183/FOD%20Hotels/Mountain%20Mirage/1ee1912a-4c67-40d2-93af-f54f07201e76.jpg_j9cahq.webp",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766822182/FOD%20Hotels/Mountain%20Mirage/0f38e6dc-eef5-4b3e-ba34-669bf6b83ce0.png_gtzq1z.avif",
-
     ],
     prices: [
-      { type: "quad", label: "Standard", price: 1999 },
-      { type: "triple", label: "Deluxe", price: 2499 },
-      { type: "double", label: "Executive", price: 2999 },
+      { type: "standard", label: "Standard", price: 1999 },
+      { type: "deluxe", label: "Deluxe", price: 2499 },
+      { type: "executive", label: "Executive", price: 2999 },
     ],
     location: "Manali",
     places_covered: [
@@ -58,24 +58,33 @@ export const MAIN_DATA: MainDataType[] = [
       "Peaceful environment for relaxation",
     ],
     inclusions: [
-      "Transit by Luxury Tempo Traveller/ Volvo bus",
-      "Stay in 3 star property/Swiss Camps",
-      "2 Breakfast & 2 Dinner",
-      "Bonfire under the sky in chopta valley",
-      "Special DJ night around bonfire",
-      "Professional Guide",
+      "Comfortable and well-maintained accommodation",
+      "Clean and spacious rooms with essential amenities",
+      "Daily housekeeping service",
+      "Peaceful and secure stay environment",
+      "Assistance from trained and courteous hotel staff",
+      "Convenient hotel location with easy access to nearby attractions and services",
+      "Free Wi-Fi in rooms and common areas (where applicable)",
+      "Hot and cold water supply",
+      "Front desk assistance during business hours",
     ],
+
     exclusions: [
-      "Anything that is not mentioned in inclusion",
-      "Adventurous sports like rafting and paragliding",
-      "Any personal expense",
+      "Meals unless specifically mentioned in the booking plan",
+      "Airport or railway station transfers",
+      "Local sightseeing and transportation services",
+      "Early check-in and late check-out (subject to availability and extra charges)",
+      "Laundry, room service, or other paid hotel services",
+      "Any personal expenses incurred during the stay",
+      "Extra bed or additional guests not included in the booking",
+      "Anything not explicitly mentioned in the inclusions",
     ],
-    bookingUrl:
-      DEFAULT_WTSP_URL,
+    bookingUrl: DEFAULT_WTSP_URL,
   },
   {
     id: 2,
     name: "Hotel Barak Residency",
+    headline:"Comfort and Convenience Near LPU",
     desc: "Hotel Barak Residency is located near Lovely Professional University, making it a preferred choice for students, parents, academic visitors, and professionals. The hotel offers clean rooms, essential amenities, and a quiet stay environment.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823532/FOD%20Hotels/Barak%20Residency/hotel-the-barak-s-residency--lpu-main-gate--special-for-parents-students-couples-corporate-phagwara-20231218053550144400_pkik3e.jpg",
@@ -88,12 +97,11 @@ export const MAIN_DATA: MainDataType[] = [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823528/FOD%20Hotels/Barak%20Residency/hotel-the-barak-s-residency--lpu-main-gate--special-for-parents-students-couples-corporate-phagwara-20231218053452828900_avsylg.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823528/FOD%20Hotels/Barak%20Residency/hotel-the-barak-s-residency--lpu-main-gate--special-for-parents-students-couples-corporate-phagwara-20231218053440015300_dhcojt.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823528/FOD%20Hotels/Barak%20Residency/hotel-the-barak-s-residency--lpu-main-gate--special-for-parents-students-couples-corporate-phagwara-20231218053437572000_qwgm0a.jpg",
-      "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823527/FOD%20Hotels/Barak%20Residency/hotel-the-barak-s-residency--lpu-main-gate--special-for-parents-students-couples-corporate-phagwara-20231218053436556200_xu8uhv.jpg"
+      "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823527/FOD%20Hotels/Barak%20Residency/hotel-the-barak-s-residency--lpu-main-gate--special-for-parents-students-couples-corporate-phagwara-20231218053436556200_xu8uhv.jpg",
     ],
     prices: [
-      { type: "quad", label: "Quad Sharing", price: 5999 },
-      { type: "triple", label: "Triple Sharing", price: 6499 },
-      { type: "double", label: "Double Sharing", price: 6999 },
+      { type: "standard", label: "Standard", price: 999 },
+      { type: "deluxe", label: "Deluxe", price: 1499 },
     ],
     location: "Jalandhar",
     places_covered: [
@@ -103,24 +111,33 @@ export const MAIN_DATA: MainDataType[] = [
       "Easy access to transport and local services",
     ],
     inclusions: [
-      "Transit by Luxury Tempo Traveller/ Volvo bus",
-      "Stay in 3 star property/Swiss Camps",
-      "2 Breakfast & 2 Dinner",
-      "Bonfire under the sky in Tirthan valley",
-      "Special DJ night around bonfire",
-      "Professional Guide",
+      "Comfortable and well-maintained accommodation",
+      "Clean and spacious rooms with essential amenities",
+      "Daily housekeeping service",
+      "Peaceful and secure stay environment",
+      "Assistance from trained and courteous hotel staff",
+      "Convenient hotel location with easy access to nearby attractions and services",
+      "Free Wi-Fi in rooms and common areas (where applicable)",
+      "Hot and cold water supply",
+      "Front desk assistance during business hours",
     ],
+
     exclusions: [
-      "Anything that is not mentioned in inclusion",
-      "Adventurous sports like rafting and paragliding",
-      "Any personal expense",
+      "Meals unless specifically mentioned in the booking plan",
+      "Airport or railway station transfers",
+      "Local sightseeing and transportation services",
+      "Early check-in and late check-out (subject to availability and extra charges)",
+      "Laundry, room service, or other paid hotel services",
+      "Any personal expenses incurred during the stay",
+      "Extra bed or additional guests not included in the booking",
+      "Anything not explicitly mentioned in the inclusions",
     ],
-    bookingUrl:
-      DEFAULT_WTSP_URL,
+    bookingUrl: DEFAULT_WTSP_URL,
   },
   {
     id: 3,
     name: "Hotel Nitin Stays",
+    headline:"Affordable Comfort for Everyday Travel",
     desc: "Hotel Nitin Stays offers budget-friendly accommodation for guests seeking comfort, cleanliness, and convenience. It is suitable for business travelers, families, and short-stay guests visiting Jalandhar.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823459/FOD%20Hotels/Nitin%20Stays/ycykclhupxqk.jpg_riltls.avif",
@@ -139,12 +156,10 @@ export const MAIN_DATA: MainDataType[] = [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823413/FOD%20Hotels/Nitin%20Stays/gcbuuaudrpuj_thdck7.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823381/FOD%20Hotels/Nitin%20Stays/fsiduvmukmgi.jpg_ts6dcd.avif",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823301/FOD%20Hotels/Nitin%20Stays/dqsvpbiitqpq-14_zjb0je.jpg",
-      "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823298/FOD%20Hotels/Nitin%20Stays/devcitpklrqr_jagjzd.jpg"
+      "https://res.cloudinary.com/dgghqzaxo/image/upload/v1766823298/FOD%20Hotels/Nitin%20Stays/devcitpklrqr_jagjzd.jpg",
     ],
     prices: [
-      { type: "quad", label: "Quad Sharing", price: 5999 },
-      { type: "triple", label: "Triple Sharing", price: 6499 },
-      { type: "double", label: "Double Sharing", price: 6999 },
+      { type: "standard", label: "Standard", price: 599 },
     ],
     location: "Jalandhar",
     places_covered: [
@@ -154,20 +169,28 @@ export const MAIN_DATA: MainDataType[] = [
       "Convenient city access",
     ],
     inclusions: [
-      "Transit by Luxury Tempo Traveller/ Volvo bus",
-      "Stay in 3 star property/Swiss Camps",
-      "2 Breakfast & 2 Dinner",
-      "Bonfire under the sky in Rajasthan",
-      "Special DJ night around bonfire",
-      "Professional Guide",
+      "Comfortable and well-maintained accommodation",
+      "Clean and spacious rooms with essential amenities",
+      "Daily housekeeping service",
+      "Peaceful and secure stay environment",
+      "Assistance from trained and courteous hotel staff",
+      "Convenient hotel location with easy access to nearby attractions and services",
+      "Free Wi-Fi in rooms and common areas (where applicable)",
+      "Hot and cold water supply",
+      "Front desk assistance during business hours",
     ],
+
     exclusions: [
-      "Anything that is not mentioned in inclusion",
-      "Adventurous sports like rafting and paragliding",
-      "Any personal expense",
+      "Meals unless specifically mentioned in the booking plan",
+      "Airport or railway station transfers",
+      "Local sightseeing and transportation services",
+      "Early check-in and late check-out (subject to availability and extra charges)",
+      "Laundry, room service, or other paid hotel services",
+      "Any personal expenses incurred during the stay",
+      "Extra bed or additional guests not included in the booking",
+      "Anything not explicitly mentioned in the inclusions",
     ],
-    bookingUrl:
-      DEFAULT_WTSP_URL,
+    bookingUrl: DEFAULT_WTSP_URL,
   },
 ];
 
@@ -225,4 +248,3 @@ export const FAQ_DATA = {
     },
   ],
 };
-

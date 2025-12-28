@@ -1,27 +1,23 @@
 import { MainDataType, PriceType, SharingType } from '@fod/constants/types'
 import React from 'react'
-import { MdGroup } from "react-icons/md";
-import { HiMiniUserGroup } from "react-icons/hi2";
-import { GiLovers } from "react-icons/gi";
-import { FaUser } from "react-icons/fa";
+import { FaBed } from "react-icons/fa";
+import { IoIosBed } from "react-icons/io";
+import { FaCrown } from "react-icons/fa";
 
 function PricingOptions({ data }: { data: MainDataType }) {
 
     const getUserIcon = (type: SharingType) => {
         switch (type) {
-            case "quad":
+            case "standard":
                 return <div className='flex'>
-                    <MdGroup size={32} />
-                    <MdGroup size={32} />
+                    <FaBed size={32} />
                 </div>
-            case "triple":
-                return <HiMiniUserGroup size={32} />
-            case "double":
-                return <MdGroup size={32} />
-            case "couple":
-                return <GiLovers size={32} />
+            case "deluxe":
+                return <IoIosBed size={32} />
+            case "executive":
+                return <FaCrown size={32} />
             default:
-                return <FaUser size={32} />
+                return <FaBed size={32} />
         }
     }
     return (
