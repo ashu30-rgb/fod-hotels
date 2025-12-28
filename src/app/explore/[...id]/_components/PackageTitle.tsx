@@ -1,4 +1,3 @@
-import { FaBus } from "react-icons/fa";
 import React from 'react'
 import { CircleParking, MapPin, SoapDispenserDroplet, Utensils, Wifi } from "lucide-react";
 import { MainDataType } from "@fod/constants/types";

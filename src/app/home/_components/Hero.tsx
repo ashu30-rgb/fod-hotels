@@ -3,8 +3,6 @@ import { HOMEPAGE_VIDEO_URL } from '@fod/constants/data';
 import Link from 'next/link'
 import { ReactTyped } from 'react-typed'
 import { MoveRight } from 'lucide-react'
-import SearchBar from '@fod/app/_components/SearchBar'
-
 
 function Hero() {
     return (

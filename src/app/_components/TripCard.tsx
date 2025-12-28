@@ -1,5 +1,5 @@
 import { MainDataType } from '@fod/constants/types'
-import { CircleParking, MapPin, SoapDispenserDroplet, Utensils, Wifi } from "lucide-react";
+import { CircleParking, SoapDispenserDroplet, Utensils, Wifi } from "lucide-react";
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
