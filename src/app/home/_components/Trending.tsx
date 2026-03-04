@@ -11,12 +11,17 @@ function Trending() {
     const [selectedTrip, setSelectedTrip] = useState(randomFive[0] || MAIN_DATA[0]);
 
     useEffect(() => {
-        const shuffled = MAIN_DATA
+        const mountainMirage = MAIN_DATA.find(item => item.id === 1);
+        const others = MAIN_DATA.filter(item => item.id !== 1);
+        const shuffledOthers = others
             .slice()
             .sort(() => Math.random() - 0.5)
-            .slice(0, 5);
-        setRandomFive(shuffled);
-        setSelectedTrip(shuffled[0])
+            .slice(0, 4);
+
+        const finalSelection = mountainMirage ? [mountainMirage, ...shuffledOthers] : shuffledOthers.slice(0, 5);
+
+        setRandomFive(finalSelection);
+        setSelectedTrip(finalSelection[0])
     }, []);
     return (
         <div className='bg-fodOrange py-16 p-4'>
